@@ -246,7 +246,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { "city": "广东省内/汕尾市", "firstWeight": 10, "firstPrice": 25, "additionalPrices": [0.8] },
         { "city": "广东省内/湛江市", "firstWeight": 10, "firstPrice": 25, "additionalPrices": [0.75] },
         { "city": "广东省内/茂名市", "firstWeight": 10, "firstPrice": 25, "additionalPrices": [0.75] },
-        { "city": "广东省内/阳江市", "firstWeight": 10, "firstPrice": 25, "additionalPrices": [0.75] },
+        { "city": "广东省内/江门市", "firstWeight": 10, "firstPrice": 25, "additionalPrices": [0.75] },
         { "city": "广东省内/韶关市", "firstWeight": 10, "firstPrice": 25, "additionalPrices": [0.75] },
         { "city": "广东省内/清远市", "firstWeight": 10, "firstPrice": 25, "additionalPrices": [0.75] },
         { "city": "广东省内/河源市", "firstWeight": 10, "firstPrice": 25, "additionalPrices": [0.78] },
@@ -355,6 +355,520 @@ document.addEventListener('DOMContentLoaded', function() {
         { "city": "青海省", "firstWeight": 10, "firstPrice": 50, "additionalPrices": [3.3] },
         { "city": "新疆省", "firstWeight": 10, "firstPrice": 60, "additionalPrices": [3.8] },
         { "city": "西藏省", "firstWeight": 10, "firstPrice": 60, "additionalPrices": [4.3] }
+    ],
+    "yuantong": [
+        { 
+            "city": "上海市", 
+            "firstWeight": 1,
+            "firstPrice": 4.80,
+            "additionalPrices": [1.80],
+            "addFee": 1.00,
+            "ranges": [
+                { "weight": 0.3, "price": 1.40 },
+                { "weight": 0.5, "price": 1.70 },
+                { "weight": 1.0, "price": 2.20 },
+                { "weight": 1.5, "price": 3.10 },
+                { "weight": 2.0, "price": 3.30 },
+                { "weight": 2.5, "price": 3.60 },
+                { "weight": 3.0, "price": 3.80 }
+            ]
+        },
+        {
+            "city": "广东省",
+            "firstWeight": 1,
+            "firstPrice": 3.80,
+            "additionalPrices": [1.00],
+            "addFee": 0.00,
+            "ranges": [
+                { "weight": 0.3, "price": 1.40 },
+                { "weight": 0.5, "price": 1.70 },
+                { "weight": 1.0, "price": 2.20 },
+                { "weight": 1.5, "price": 3.10 },
+                { "weight": 2.0, "price": 3.30 },
+                { "weight": 2.5, "price": 3.60 },
+                { "weight": 3.0, "price": 3.80 }
+            ]
+        },
+        {
+            "city": "广东省内/深圳市",
+            "firstWeight": 1,
+            "firstPrice": 3.80,
+            "additionalPrices": [1.00],
+            "addFee": 0.50,
+            "ranges": [
+                { "weight": 0.3, "price": 1.40 },
+                { "weight": 0.5, "price": 1.70 },
+                { "weight": 1.0, "price": 2.20 },
+                { "weight": 1.5, "price": 3.10 },
+                { "weight": 2.0, "price": 3.30 },
+                { "weight": 2.5, "price": 3.60 },
+                { "weight": 3.0, "price": 3.80 }
+            ]
+        },
+        {
+            "city": "浙江省",
+            "firstWeight": 1,
+            "firstPrice": 4.80,
+            "additionalPrices": [1.80],
+            "addFee": 0.00,
+            "ranges": [
+                { "weight": 0.3, "price": 1.40 },
+                { "weight": 0.5, "price": 1.70 },
+                { "weight": 1.0, "price": 2.20 },
+                { "weight": 1.5, "price": 3.10 },
+                { "weight": 2.0, "price": 3.30 },
+                { "weight": 2.5, "price": 3.60 },
+                { "weight": 3.0, "price": 3.80 }
+            ]
+        },
+        {
+            "city": "安徽省",
+            "firstWeight": 1,
+            "firstPrice": 5.30,
+            "additionalPrices": [1.80],
+            "addFee": 0.00,
+            "ranges": [
+                { "weight": 0.3, "price": 1.40 },
+                { "weight": 0.5, "price": 1.70 },
+                { "weight": 1.0, "price": 2.20 },
+                { "weight": 1.5, "price": 3.10 },
+                { "weight": 2.0, "price": 3.30 },
+                { "weight": 2.5, "price": 3.60 },
+                { "weight": 3.0, "price": 3.80 }
+            ]
+        },
+        {
+            "city": "广西省",
+            "firstWeight": 1,
+            "firstPrice": 4.80,
+            "additionalPrices": [1.80],
+            "addFee": 0.00,
+            "ranges": [
+                { "weight": 0.3, "price": 1.40 },
+                { "weight": 0.5, "price": 1.70 },
+                { "weight": 1.0, "price": 2.20 },
+                { "weight": 1.5, "price": 3.10 },
+                { "weight": 2.0, "price": 3.30 },
+                { "weight": 2.5, "price": 3.60 },
+                { "weight": 3.0, "price": 3.80 }
+            ]
+        },
+        {
+            "city": "福建省",
+            "firstWeight": 1,
+            "firstPrice": 4.80,
+            "additionalPrices": [1.80],
+            "addFee": 0.00,
+            "ranges": [
+                { "weight": 0.3, "price": 1.40 },
+                { "weight": 0.5, "price": 1.70 },
+                { "weight": 1.0, "price": 2.20 },
+                { "weight": 1.5, "price": 3.10 },
+                { "weight": 2.0, "price": 3.30 },
+                { "weight": 2.5, "price": 3.60 },
+                { "weight": 3.0, "price": 3.80 }
+            ]
+        },
+        {
+            "city": "江西省",
+            "firstWeight": 1,
+            "firstPrice": 4.80,
+            "additionalPrices": [1.80],
+            "addFee": 0.00,
+            "ranges": [
+                { "weight": 0.3, "price": 1.40 },
+                { "weight": 0.5, "price": 1.70 },
+                { "weight": 1.0, "price": 2.20 },
+                { "weight": 1.5, "price": 3.10 },
+                { "weight": 2.0, "price": 3.30 },
+                { "weight": 2.5, "price": 3.60 },
+                { "weight": 3.0, "price": 3.80 }
+            ]
+        },
+        {
+            "city": "湖北省",
+            "firstWeight": 1,
+            "firstPrice": 4.80,
+            "additionalPrices": [1.80],
+            "addFee": 0.00,
+            "ranges": [
+                { "weight": 0.3, "price": 1.40 },
+                { "weight": 0.5, "price": 1.70 },
+                { "weight": 1.0, "price": 2.20 },
+                { "weight": 1.5, "price": 3.10 },
+                { "weight": 2.0, "price": 3.30 },
+                { "weight": 2.5, "price": 3.60 },
+                { "weight": 3.0, "price": 3.80 }
+            ]
+        },
+        {
+            "city": "湖南省",
+            "firstWeight": 1,
+            "firstPrice": 4.80,
+            "additionalPrices": [1.80],
+            "addFee": 0.00,
+            "ranges": [
+                { "weight": 0.3, "price": 1.40 },
+                { "weight": 0.5, "price": 1.70 },
+                { "weight": 1.0, "price": 2.20 },
+                { "weight": 1.5, "price": 3.10 },
+                { "weight": 2.0, "price": 3.30 },
+                { "weight": 2.5, "price": 3.60 },
+                { "weight": 3.0, "price": 3.80 }
+            ]
+        },
+        {
+            "city": "河南省",
+            "firstWeight": 1,
+            "firstPrice": 5.30,
+            "additionalPrices": [2.40],
+            "addFee": 0.00,
+            "ranges": [
+                { "weight": 0.3, "price": 1.40 },
+                { "weight": 0.5, "price": 1.70 },
+                { "weight": 1.0, "price": 2.20 },
+                { "weight": 1.5, "price": 3.10 },
+                { "weight": 2.0, "price": 3.30 },
+                { "weight": 2.5, "price": 3.60 },
+                { "weight": 3.0, "price": 3.80 }
+            ]
+        },
+        {
+            "city": "北京市",
+            "firstWeight": 1,
+            "firstPrice": 5.30,
+            "additionalPrices": [2.40],
+            "addFee": 1.00,
+            "ranges": [
+                { "weight": 0.3, "price": 1.40 },
+                { "weight": 0.5, "price": 1.70 },
+                { "weight": 1.0, "price": 2.20 },
+                { "weight": 1.5, "price": 3.10 },
+                { "weight": 2.0, "price": 3.30 },
+                { "weight": 2.5, "price": 3.60 },
+                { "weight": 3.0, "price": 3.80 }
+            ]
+        },
+        {
+            "city": "海南省",
+            "firstWeight": 1,
+            "firstPrice": 5.30,
+            "additionalPrices": [2.90],
+            "addFee": 0.00,
+            "ranges": [
+                { "weight": 0.3, "price": 1.40 },
+                { "weight": 0.5, "price": 1.70 },
+                { "weight": 1.0, "price": 2.20 },
+                { "weight": 1.5, "price": 3.10 },
+                { "weight": 2.0, "price": 3.30 },
+                { "weight": 2.5, "price": 3.60 },
+                { "weight": 3.0, "price": 3.80 }
+            ]
+        },
+        {
+            "city": "天津市",
+            "firstWeight": 1,
+            "firstPrice": 5.30,
+            "additionalPrices": [2.40],
+            "addFee": 0.00,
+            "ranges": [
+                { "weight": 0.3, "price": 1.40 },
+                { "weight": 0.5, "price": 1.70 },
+                { "weight": 1.0, "price": 2.20 },
+                { "weight": 1.5, "price": 3.10 },
+                { "weight": 2.0, "price": 3.30 },
+                { "weight": 2.5, "price": 3.60 },
+                { "weight": 3.0, "price": 3.80 }
+            ]
+        },
+        {
+            "city": "河北省",
+            "firstWeight": 1,
+            "firstPrice": 5.30,
+            "additionalPrices": [2.40],
+            "addFee": 0.00,
+            "ranges": [
+                { "weight": 0.3, "price": 1.40 },
+                { "weight": 0.5, "price": 1.70 },
+                { "weight": 1.0, "price": 2.20 },
+                { "weight": 1.5, "price": 3.10 },
+                { "weight": 2.0, "price": 3.30 },
+                { "weight": 2.5, "price": 3.60 },
+                { "weight": 3.0, "price": 3.80 }
+            ]
+        },
+        {
+            "city": "山东省",
+            "firstWeight": 1,
+            "firstPrice": 5.80,
+            "additionalPrices": [2.80],
+            "addFee": 0.00,
+            "ranges": [
+                { "weight": 0.3, "price": 1.40 },
+                { "weight": 0.5, "price": 1.70 },
+                { "weight": 1.0, "price": 2.20 },
+                { "weight": 1.5, "price": 3.10 },
+                { "weight": 2.0, "price": 3.30 },
+                { "weight": 2.5, "price": 3.60 },
+                { "weight": 3.0, "price": 3.80 }
+            ]
+        },
+        {
+            "city": "山西省",
+            "firstWeight": 1,
+            "firstPrice": 5.80,
+            "additionalPrices": [3.20],
+            "addFee": 0.00,
+            "ranges": [
+                { "weight": 0.3, "price": 1.40 },
+                { "weight": 0.5, "price": 1.70 },
+                { "weight": 1.0, "price": 2.20 },
+                { "weight": 1.5, "price": 3.10 },
+                { "weight": 2.0, "price": 3.30 },
+                { "weight": 2.5, "price": 3.60 },
+                { "weight": 3.0, "price": 3.80 }
+            ]
+        },
+        {
+            "city": "江苏省",
+            "firstWeight": 1,
+            "firstPrice": 4.80,
+            "additionalPrices": [1.80],
+            "addFee": 0.00,
+            "ranges": [
+                { "weight": 0.3, "price": 1.40 },
+                { "weight": 0.5, "price": 1.70 },
+                { "weight": 1.0, "price": 2.20 },
+                { "weight": 1.5, "price": 3.10 },
+                { "weight": 2.0, "price": 3.30 },
+                { "weight": 2.5, "price": 3.60 },
+                { "weight": 3.0, "price": 3.80 }
+            ]
+        },
+        {
+            "city": "云南省",
+            "firstWeight": 1,
+            "firstPrice": 5.80,
+            "additionalPrices": [2.80],
+            "addFee": 0.00,
+            "ranges": [
+                { "weight": 0.3, "price": 1.40 },
+                { "weight": 0.5, "price": 1.70 },
+                { "weight": 1.0, "price": 2.20 },
+                { "weight": 1.5, "price": 3.10 },
+                { "weight": 2.0, "price": 3.30 },
+                { "weight": 2.5, "price": 3.60 },
+                { "weight": 3.0, "price": 3.80 }
+            ]
+        },
+        {
+            "city": "贵州省",
+            "firstWeight": 1,
+            "firstPrice": 5.80,
+            "additionalPrices": [2.80],
+            "addFee": 0.00,
+            "ranges": [
+                { "weight": 0.3, "price": 1.40 },
+                { "weight": 0.5, "price": 1.70 },
+                { "weight": 1.0, "price": 2.20 },
+                { "weight": 1.5, "price": 3.10 },
+                { "weight": 2.0, "price": 3.30 },
+                { "weight": 2.5, "price": 3.60 },
+                { "weight": 3.0, "price": 3.80 }
+            ]
+        },
+        {
+            "city": "四川省",
+            "firstWeight": 1,
+            "firstPrice": 5.80,
+            "additionalPrices": [2.80],
+            "addFee": 0.00,
+            "ranges": [
+                { "weight": 0.3, "price": 1.40 },
+                { "weight": 0.5, "price": 1.70 },
+                { "weight": 1.0, "price": 2.20 },
+                { "weight": 1.5, "price": 3.10 },
+                { "weight": 2.0, "price": 3.30 },
+                { "weight": 2.5, "price": 3.60 },
+                { "weight": 3.0, "price": 3.80 }
+            ]
+        },
+        {
+            "city": "陕西省",
+            "firstWeight": 1,
+            "firstPrice": 5.80,
+            "additionalPrices": [3.00],
+            "addFee": 0.00,
+            "ranges": [
+                { "weight": 0.3, "price": 1.40 },
+                { "weight": 0.5, "price": 1.70 },
+                { "weight": 1.0, "price": 2.20 },
+                { "weight": 1.5, "price": 3.10 },
+                { "weight": 2.0, "price": 3.30 },
+                { "weight": 2.5, "price": 3.60 },
+                { "weight": 3.0, "price": 3.80 }
+            ]
+        },
+        {
+            "city": "重庆市",
+            "firstWeight": 1,
+            "firstPrice": 5.80,
+            "additionalPrices": [3.10],
+            "addFee": 0.00,
+            "ranges": [
+                { "weight": 0.3, "price": 1.40 },
+                { "weight": 0.5, "price": 1.70 },
+                { "weight": 1.0, "price": 2.20 },
+                { "weight": 1.5, "price": 3.10 },
+                { "weight": 2.0, "price": 3.30 },
+                { "weight": 2.5, "price": 3.60 },
+                { "weight": 3.0, "price": 3.80 }
+            ]
+        },
+        {
+            "city": "黑龙江",
+            "firstWeight": 1,
+            "firstPrice": 9.30,
+            "additionalPrices": [6.20],
+            "addFee": 0.00,
+            "ranges": [
+                { "weight": 0.3, "price": 1.40 },
+                { "weight": 0.5, "price": 1.70 },
+                { "weight": 1.0, "price": 2.20 },
+                { "weight": 1.5, "price": 3.10 },
+                { "weight": 2.0, "price": 3.30 },
+                { "weight": 2.5, "price": 3.60 },
+                { "weight": 3.0, "price": 3.80 }
+            ]
+        },
+        {
+            "city": "吉林省",
+            "firstWeight": 1,
+            "firstPrice": 9.30,
+            "additionalPrices": [6.20],
+            "addFee": 0.00,
+            "ranges": [
+                { "weight": 0.3, "price": 1.40 },
+                { "weight": 0.5, "price": 1.70 },
+                { "weight": 1.0, "price": 2.20 },
+                { "weight": 1.5, "price": 3.10 },
+                { "weight": 2.0, "price": 3.30 },
+                { "weight": 2.5, "price": 3.60 },
+                { "weight": 3.0, "price": 3.80 }
+            ]
+        },
+        {
+            "city": "辽宁省",
+            "firstWeight": 1,
+            "firstPrice": 9.30,
+            "additionalPrices": [6.20],
+            "addFee": 0.00,
+            "ranges": [
+                { "weight": 0.3, "price": 1.40 },
+                { "weight": 0.5, "price": 1.70 },
+                { "weight": 1.0, "price": 2.20 },
+                { "weight": 1.5, "price": 3.10 },
+                { "weight": 2.0, "price": 3.30 },
+                { "weight": 2.5, "price": 3.60 },
+                { "weight": 3.0, "price": 3.80 }
+            ]
+        },
+        {
+            "city": "甘肃省",
+            "firstWeight": 1,
+            "firstPrice": 9.30,
+            "additionalPrices": [6.20],
+            "addFee": 0.00,
+            "ranges": [
+                { "weight": 0.3, "price": 1.40 },
+                { "weight": 0.5, "price": 1.70 },
+                { "weight": 1.0, "price": 2.20 },
+                { "weight": 1.5, "price": 3.10 },
+                { "weight": 2.0, "price": 3.30 },
+                { "weight": 2.5, "price": 3.60 },
+                { "weight": 3.0, "price": 3.80 }
+            ]
+        },
+        {
+            "city": "宁夏省",
+            "firstWeight": 1,
+            "firstPrice": 9.30,
+            "additionalPrices": [6.20],
+            "addFee": 0.00,
+            "ranges": [
+                { "weight": 0.3, "price": 1.40 },
+                { "weight": 0.5, "price": 1.70 },
+                { "weight": 1.0, "price": 2.20 },
+                { "weight": 1.5, "price": 3.10 },
+                { "weight": 2.0, "price": 3.30 },
+                { "weight": 2.5, "price": 3.60 },
+                { "weight": 3.0, "price": 3.80 }
+            ]
+        },
+        {
+            "city": "青海省",
+            "firstWeight": 1,
+            "firstPrice": 9.30,
+            "additionalPrices": [6.20],
+            "addFee": 0.00,
+            "ranges": [
+                { "weight": 0.3, "price": 1.40 },
+                { "weight": 0.5, "price": 1.70 },
+                { "weight": 1.0, "price": 2.20 },
+                { "weight": 1.5, "price": 3.10 },
+                { "weight": 2.0, "price": 3.30 },
+                { "weight": 2.5, "price": 3.60 },
+                { "weight": 3.0, "price": 3.80 }
+            ]
+        },
+        {
+            "city": "内蒙古",
+            "firstWeight": 1,
+            "firstPrice": 9.30,
+            "additionalPrices": [6.20],
+            "addFee": 0.00,
+            "ranges": [
+                { "weight": 0.3, "price": 1.40 },
+                { "weight": 0.5, "price": 1.70 },
+                { "weight": 1.0, "price": 2.20 },
+                { "weight": 1.5, "price": 3.10 },
+                { "weight": 2.0, "price": 3.30 },
+                { "weight": 2.5, "price": 3.60 },
+                { "weight": 3.0, "price": 3.80 }
+            ]
+        },
+        {
+            "city": "新疆省",
+            "firstWeight": 1,
+            "firstPrice": 10.00,
+            "additionalPrices": [15.00],
+            "addFee": 0.00,
+            "ranges": [
+                { "weight": 0.3, "price": 8.00 },
+                { "weight": 0.5, "price": 8.00 },
+                { "weight": 1.0, "price": 12.00 },
+                { "weight": 1.5, "price": 16.00 },
+                { "weight": 2.0, "price": 20.00 },
+                { "weight": 2.5, "price": 25.00 },
+                { "weight": 3.0, "price": 30.00 }
+            ]
+        },
+        {
+            "city": "西藏省",
+            "firstWeight": 1,
+            "firstPrice": 12.00,
+            "additionalPrices": [17.00],
+            "addFee": 0.00,
+            "ranges": [
+                { "weight": 0.3, "price": 8.00 },
+                { "weight": 0.5, "price": 9.00 },
+                { "weight": 1.0, "price": 14.00 },
+                { "weight": 1.5, "price": 18.00 },
+                { "weight": 2.0, "price": 26.00 },
+                { "weight": 2.5, "price": 32.00 },
+                { "weight": 3.0, "price": 38.00 }
+            ]
+        }
     ]
         // ... 其他物流公司数据
     };
@@ -365,7 +879,8 @@ document.addEventListener('DOMContentLoaded', function() {
         'zhongtong': '中通快运',
         'jym': '加运美',
         'annengbz': '安能标准',
-        'annengdsd': '安能定时达'
+        'annengdsd': '安能定时达',
+        'yuantong': '圆通快递'
     };
 
     function calculateShipping(company, city, weight) {
@@ -377,16 +892,13 @@ document.addEventListener('DOMContentLoaded', function() {
         const { firstWeight, firstPrice, additionalPrices } = data;
         weight = parseFloat(weight);
         
-        // 如果重量小于等于首重，直接返回首重价格
-        if (weight <= firstWeight) {
-            return firstPrice.toFixed(2);
-        }
-
         let finalPrice;
-        // 根据不同公司计算续重费用
+        
         switch(companyName) {
             case '韵达快运':
-                if (weight <= 300) {
+                if (weight <= firstWeight) {
+                    finalPrice = firstPrice;
+                } else if (weight <= 300) {
                     finalPrice = firstPrice + (weight - firstWeight) * additionalPrices[0];
                 } else if (weight <= 800) {
                     finalPrice = firstPrice + (weight - firstWeight) * additionalPrices[1];
@@ -395,7 +907,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
                 break;
             case '顺心捷达':
-                if (weight <= 500) {
+                if (weight <= firstWeight) {
+                    finalPrice = firstPrice;
+                } else if (weight <= 500) {
                     finalPrice = firstPrice + (weight - firstWeight) * additionalPrices[0];
                 } else if (weight <= 1000) {
                     finalPrice = firstPrice + (weight - firstWeight) * additionalPrices[1];
@@ -404,7 +918,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
                 break;
             case '中通快运':
-                if (weight <= 70) {
+                if (weight <= firstWeight) {
+                    finalPrice = firstPrice;
+                } else if (weight <= 70) {
                     finalPrice = firstPrice + (weight - firstWeight) * additionalPrices[0];
                 } else if (weight <= 400) {
                     finalPrice = firstPrice + (weight - firstWeight) * additionalPrices[1];
@@ -417,11 +933,48 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
                 break;
             case '加运美':
-                finalPrice = firstPrice + (weight - firstWeight) * additionalPrices[0];
+                if (weight <= firstWeight) {
+                    finalPrice = firstPrice;
+                } else {
+                    finalPrice = firstPrice + (weight - firstWeight) * additionalPrices[0];
+                }
                 break;
             case '安能标准':
             case '安能定时达':
-                finalPrice = firstPrice + (weight - firstWeight) * additionalPrices[0];
+                if (weight <= firstWeight) {
+                    finalPrice = firstPrice;
+                } else {
+                    finalPrice = firstPrice + (weight - firstWeight) * additionalPrices[0];
+                }
+                break;
+            case '圆通快递':
+                try {
+                    if (!data || !data.ranges) {
+                        return '-';
+                    }
+
+                    const weightNum = parseFloat(weight);
+                    
+                    if (weightNum <= 3.0) {
+                        let rangePrice = data.ranges[0].price;
+                        for (const range of data.ranges) {
+                            if (weightNum <= range.weight) {
+                                rangePrice = range.price;
+                                break;
+                            }
+                        }
+                        finalPrice = rangePrice;
+                    } else {
+                        finalPrice = data.firstPrice + (weightNum - data.firstWeight) * data.additionalPrices[0];
+                    }
+
+                    if (typeof data.addFee === 'number') {
+                        finalPrice += data.addFee;
+                    }
+                } catch (error) {
+                    console.error('圆通快递计算错误:', error, data);
+                    return '-';
+                }
                 break;
             default:
                 finalPrice = '-';
@@ -439,35 +992,80 @@ document.addEventListener('DOMContentLoaded', function() {
         results.forEach(result => {
             const company = result.id;
             const price = calculateShipping(company, city, weight);
-            console.log(`计算结果 - 公司: ${company}, 城市: ${city}, 重量: ${weight}, 价格: ${price}`);
             result.textContent = price;
         });
     }
 
     cityInput.addEventListener('input', updateResults);
     weightInput.addEventListener('input', updateResults);
-});
 
-function filterCities(input, data) {
-    const inputLower = input.toLowerCase();
-    return data.filter(item => {
-        const cityLower = item.city.toLowerCase();
-        return cityLower.includes(inputLower) || cityLower.split('/').some(part => part.startsWith(inputLower));
+    // 城市筛选功能
+    function filterCities(input, data) {
+        const inputLower = input.toLowerCase();
+        return data.filter(item => {
+            const cityLower = item.city.toLowerCase();
+            return cityLower.includes(inputLower) || cityLower.split('/').some(part => part.startsWith(inputLower));
+        });
+    }
+
+    function getAllCities() {
+        // 创建Set来存储不重复的城市
+        const allCities = new Set();
+        
+        // 遍历所有快递公司的数据
+        Object.keys(shippingData).forEach(company => {
+            shippingData[company].forEach(cityData => {
+                allCities.add(cityData.city);
+            });
+        });
+        
+        // 转换为数组并排序
+        return Array.from(allCities).sort((a, b) => {
+            // 广东省内城市排在前面
+            if (a.startsWith('广东省内') && !b.startsWith('广东省内')) return -1;
+            if (!a.startsWith('广东省内') && b.startsWith('广东省内')) return 1;
+            // 特殊区域（如深圳盐田、广州天河等）排在第二位
+            if ((a.startsWith('深圳') || a.startsWith('广州')) && 
+                !(b.startsWith('深圳') || b.startsWith('广州'))) return -1;
+            if (!(a.startsWith('深圳') || a.startsWith('广州')) && 
+                (b.startsWith('深圳') || b.startsWith('广州'))) return 1;
+            // 其他按字母顺序排序
+            return a.localeCompare(b, 'zh-CN');
+        });
+    }
+
+    function updateCityOptions(input) {
+        const allCities = getAllCities();
+        const cityOptions = document.getElementById('cityOptions');
+        cityOptions.innerHTML = '';
+        
+        // 如果有输入，进行筛选
+        const filteredCities = input ? 
+            allCities.filter(city => {
+                const cityLower = city.toLowerCase();
+                const inputLower = input.toLowerCase();
+                return cityLower.includes(inputLower) || 
+                       cityLower.split('/').some(part => 
+                           part.includes(inputLower)
+                       );
+            }) : allCities;
+
+        // 创建选项
+        filteredCities.forEach(city => {
+            const option = document.createElement('option');
+            option.value = city;
+            option.textContent = city; // 显示完整城市名
+            cityOptions.appendChild(option);
+        });
+    }
+
+    // 初始化显示所有城市
+    updateCityOptions('');
+    
+    // 添加事件监听
+    cityInput.addEventListener('input', function() {
+        updateCityOptions(this.value);
+        updateResults();
     });
-}
-
-function updateCityOptions(input) {
-    const filteredCities = filterCities(input, shippingData.yunda); // 假设使用韵达快运的数据
-    const cityOptions = document.getElementById('cityOptions');
-    cityOptions.innerHTML = ''; // 清空现有选项
-
-    filteredCities.forEach(city => {
-        const option = document.createElement('option');
-        option.value = city.city;
-        cityOptions.appendChild(option);
-    });
-}
-
-cityInput.addEventListener('input', function() {
-    updateCityOptions(cityInput.value);
+    weightInput.addEventListener('input', updateResults);
 });

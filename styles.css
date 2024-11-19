@@ -169,3 +169,42 @@ td {
 @keyframes spin {
     to { transform: rotate(360deg); }
 }
+
+/* 如果你想让圆通快递的结果有特殊样式，可以添加以下代码 */
+
+/* 圆通快递的结果单元格 */
+#yuantong {
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 16px;
+    /* 如果需要特殊样式，可以取消下面的注释 */
+    /* color: #FF6B6B; */
+}
+
+/* 圆通快递的整行样式 */
+tr:has(#yuantong) {
+    background-color: rgba(76,175,80,0.02);
+    transition: background-color 0.3s ease;
+}
+
+tr:has(#yuantong):hover {
+    background-color: rgba(76,175,80,0.05);
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+}
+
+#city {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#city:focus {
+    outline: none;
+    border-color: #4a90e2;
+}

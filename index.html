@@ -12,71 +12,9 @@
             <div class="input-group">
                 <label for="city">目的地:</label>
                 <div class="input-container">
-                    <input type="text" id="city" list="cityOptions" placeholder="输入城市名称或拼音首字母">
+                    <input type="text" id="city" list="cityOptions" placeholder="请输入或选择城市" autocomplete="off">
                     <datalist id="cityOptions">
-                        <option value="广东省内/东莞市" data-pinyin="gdsnDgs">
-                        <option value="广东省内/中山市" data-pinyin="gdsnZss">
-                        <option value="广东省内/广州市" data-pinyin="gdsnGzs">
-                        <option value="广东省内/珠海市" data-pinyin="gdsnZhs">
-                        <option value="广东省内/佛山市" data-pinyin="gdsnFss">
-                        <option value="广东省内/惠州市" data-pinyin="gdsnHzs">
-                        <option value="广东省内/深圳市" data-pinyin="gdsnSzs">
-                        <option value="深圳盐田" data-pinyin="szyt">
-                        <option value="广州天河" data-pinyin="gzth">
-                        <option value="广州越秀" data-pinyin="gzyx">
-                        <option value="广州白云" data-pinyin="gzby">
-                        <option value="广州黄埔" data-pinyin="gzhp">
-                        <option value="广东省内/江门市" data-pinyin="gdsnJms">
-                        <option value="广东省内/汕头市" data-pinyin="gdsnSts">
-                        <option value="广东省内/潮州市" data-pinyin="gdsnCzs">
-                        <option value="广东省内/揭阳市" data-pinyin="gdsnJys">
-                        <option value="广东省内/汕尾市" data-pinyin="gdsnSws">
-                        <option value="广东省内/湛江市" data-pinyin="gdsnZjs">
-                        <option value="广东省内/茂名市" data-pinyin="gdsnMms">
-                        <option value="广东省内/阳江市" data-pinyin="gdsnYjs">
-                        <option value="广东省内/韶关市" data-pinyin="gdsnSgs">
-                        <option value="广东省内/清远市" data-pinyin="gdsnQys">
-                        <option value="广东省内/河源市" data-pinyin="gdsnHys">
-                        <option value="广东省内/梅州市" data-pinyin="gdsnMzs">
-                        <option value="广东省内/肇庆市" data-pinyin="gdsnZqs">
-                        <option value="广东省内/云浮市" data-pinyin="gdsnYfs">
-                        <option value="浙江省舟山市" data-pinyin="zjszss">
-                        <option value="浙江省" data-pinyin="zjs">
-                        <option value="福建省" data-pinyin="fjs">
-                        <option value="江苏省" data-pinyin="jss">
-                        <option value="广西省" data-pinyin="gxs">
-                        <option value="湖南省" data-pinyin="hns">
-                        <option value="江西省" data-pinyin="jxs">
-                        <option value="安徽省" data-pinyin="ahs">
-                        <option value="湖北省" data-pinyin="hbs">
-                        <option value="湖北省恩施自治州" data-pinyin="hbseszzz">
-                        <option value="湖北省十堰市" data-pinyin="hbssys">
-                        <option value="上海市" data-pinyin="shs">
-                        <option value="河南省" data-pinyin="hns">
-                        <option value="山东省" data-pinyin="sds">
-                        <option value="山西省" data-pinyin="sxs">
-                        <option value="天津市" data-pinyin="tjs">
-                        <option value="陕西省" data-pinyin="sxs">
-                        <option value="重庆市" data-pinyin="cqs">
-                        <option value="重庆市自治州县" data-pinyin="cqszzxx">
-                        <option value="河北省" data-pinyin="hbs">
-                        <option value="四川省" data-pinyin="scs">
-                        <option value="四川省自治州县" data-pinyin="scszzxx">
-                        <option value="贵州省" data-pinyin="gzs">
-                        <option value="贵州省自治州县" data-pinyin="gzszzxx">
-                        <option value="云南省" data-pinyin="yns">
-                        <option value="云南省自治州县" data-pinyin="ynszzxx">
-                        <option value="北京市" data-pinyin="bjs">
-                        <option value="海南省" data-pinyin="hns">
-                        <option value="辽宁省" data-pinyin="lns">
-                        <option value="吉林省" data-pinyin="jls">
-                        <option value="黑龙江" data-pinyin="hlj">
-                        <option value="甘肃省" data-pinyin="gss">
-                        <option value="内蒙古" data-pinyin="nmg">
-                        <option value="宁夏省" data-pinyin="nxs">
-                        <option value="青海省" data-pinyin="qhs">
-                        <option value="新疆省" data-pinyin="xjs">
-                        <option value="西藏省" data-pinyin="xzs">
+                        <!-- 城市选项将通过JavaScript动态添加 -->
                     </datalist>
                 </div>
             </div>
@@ -115,6 +53,10 @@
                     <tr>
                         <td>安能定时达</td>
                         <td class="result" id="annengdsd"></td>
+                    </tr>
+                    <tr>
+                        <td>圆通快递</td>
+                        <td class="result" id="yuantong"></td>
                     </tr>
                 </tbody>
             </table>
