@@ -885,7 +885,27 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function calculateShipping(company, city, weight) {
         const companyName = companyMapping[company];
-        const data = shippingData[company].find(item => item.city.includes(city));
+        let data;
+        
+        // 1. 首先尝试完全匹配
+        data = shippingData[company].find(item => item.city === city);
+        
+        // 2. 如果没找到，检查是否是特殊区域（包含"/"的城市）
+        if (!data && city.includes('/')) {
+            const [province, specificCity] = city.split('/');
+            data = shippingData[company].find(item => item.city === city);
+        }
+        
+        // 3. 如果还是没找到，尝试模糊匹配省份
+        if (!data) {
+            const items = shippingData[company].filter(item => item.city.includes(city));
+            if (items.length > 0) {
+                // 优先选择最短的匹配（通常是省份）
+                data = items.reduce((a, b) => 
+                    a.city.length <= b.city.length ? a : b
+                );
+            }
+        }
         
         if (!data) return '-';
 
